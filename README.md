@@ -2,7 +2,7 @@
 
 #commands for deplyment
 
-kubectl apply -f <filename>
+kubectl apply -f (filename)
 
 #listing pods 
 kubectl get pods 
