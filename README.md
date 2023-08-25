@@ -1,8 +1,9 @@
 # kubernetes
 
-#commands for deplyment
+#commands for deployment
 
-kubectl apply -f (filename)
+kubectl apply -f filename
+
 
 #listing pods 
 kubectl get pods 
