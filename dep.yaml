@@ -29,9 +29,11 @@ spec:
       labels:
         app: nginx
     spec:
+      securityContext:
+        runAsUser: 0
       containers:
       - name: nginx
-        image: nginx:latest
+        image: nginx:1.14.2
         imagePullPolicy: Always
         ports:
         - containerPort: 80
